@@ -14,6 +14,7 @@
 		8E28503D1EEA0BAA006D089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E28503B1EEA0BAA006D089D /* LaunchScreen.storyboard */; };
 		8E2850481EEA0BAA006D089D /* ResNet50Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850471EEA0BAA006D089D /* ResNet50Tests.swift */; };
 		8E2850531EEA0BAA006D089D /* ResNet50UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850521EEA0BAA006D089D /* ResNet50UITests.swift */; };
+		8E2850611EEA0C43006D089D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850601EEA0C43006D089D /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8E28504E1EEA0BAA006D089D /* ResNet50UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResNet50UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2850521EEA0BAA006D089D /* ResNet50UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResNet50UITests.swift; sourceTree = "<group>"; };
 		8E2850541EEA0BAA006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2850601EEA0C43006D089D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8E2850311EEA0BAA006D089D /* ResNet50 */ = {
 			isa = PBXGroup;
 			children = (
+				8E2850601EEA0C43006D089D /* Resnet50.mlmodel */,
 				8E2850321EEA0BAA006D089D /* AppDelegate.swift */,
 				8E2850341EEA0BAA006D089D /* ViewController.swift */,
 				8E2850361EEA0BAA006D089D /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2850351EEA0BAA006D089D /* ViewController.swift in Sources */,
+				8E2850611EEA0C43006D089D /* Resnet50.mlmodel in Sources */,
 				8E2850331EEA0BAA006D089D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = ResNet50/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ResNet50;
@@ -432,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = ResNet50/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ResNet50;
